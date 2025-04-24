@@ -59,7 +59,7 @@ const certificates = () => {
       title: "Elite + Silver Badge in Cloud Computing",
       date: "2023",
       organization: "IIT Kharagpur, NPTEL",
-      image: "https://picsum.photos/800/600?random=1",
+      image: "/images/certificates/nptel.jpg",
       description: "Achieved Elite + Silver Badge in Cloud Computing with a score of 82%, demonstrating strong understanding of cloud technologies and infrastructure.",
       skills: ["Cloud Computing", "AWS", "Azure", "DevOps"]
     },
@@ -67,7 +67,7 @@ const certificates = () => {
       title: "Data Structures and Algorithms Training",
       date: "2023",
       organization: "HitbullsEye",
-      image: "https://picsum.photos/800/600?random=2",
+      image: "/images/certificates/hitbullsdsa.jpg",
       description: "Completed 6-week summer training on data structures and algorithms, covering advanced algorithmic concepts and problem-solving techniques.",
       skills: ["DSA", "Problem Solving", "Algorithms", "Time Complexity"]
     },
@@ -75,7 +75,7 @@ const certificates = () => {
       title: "All India NCAT (Naukri Campus)",
       date: "2023",
       organization: "Naukri.com",
-      image: "https://picsum.photos/800/600?random=3",
+      image: "/images/certificates/ncat.jpg",
       description: "Qualified in the national-level competence assessment test, demonstrating strong technical and analytical skills.",
       skills: ["Technical Skills", "Analytical Thinking", "Problem Solving"]
     },
@@ -83,7 +83,7 @@ const certificates = () => {
       title: "Data Structures and Algorithms using C++",
       date: "2023",
       organization: "Cipher Schools",
-      image: "https://picsum.photos/800/600?random=4",
+      image: "/images/certificates/cipherdsa.jpg",
       description: "Completed comprehensive certification in DSA using C++, showcasing strong problem-solving abilities and programming skills.",
       skills: ["C++", "DSA", "OOP", "STL", "Problem Solving"]
     }

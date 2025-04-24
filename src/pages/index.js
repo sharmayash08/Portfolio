@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>Yash Sharma - Front-End Developer | UI/UX Designer | React Developer</title>
-        <meta name="Yash Sharma" content="I am a versatile Front-End Developer, UI/UX Designer, and React Developer with extensive experience in creating user-centered and responsive web applications. Browse my portfolio to see my work and get in touch with me for your next project." />
+        <meta name="Yash Sharma" content="I am a versatile Software Engineer, and Backend Developer with extensive experience in creating user-centered and responsive web applications. Browse my portfolio to see my work and get in touch with me for your next project." />
       </Head>
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
        <Layout className='pt-0 md:pt-16 sm:pt-8'>
@@ -26,7 +26,7 @@ export default function Home() {
             xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:text-3xl
             ' />
             <p className='my-4 text-base font-medium md:text-sm sm:text-sm'>
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
+              As a skilled Software Engineer, I am dedicated to turning ideas into innovative web applications. 
               Explore my latest projects and articles, showcasing my expertise in React.js and web development.
             </p>
             <div className='flex items-center self-start mt-2 lg:self-center'>
@@ -48,7 +48,6 @@ export default function Home() {
           </div>
         </div>
        </Layout>
-       <HireMe />
 
        <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
         <Image src={lightbulb} alt="Yash Sharma" className='w-full h-auto' />

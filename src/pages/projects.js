@@ -7,6 +7,7 @@ import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
 import { motion } from 'framer-motion'
 
+
 const FeaturedProject = ({ type, title, summary, img, link, github, technologies }) => {
     return (
         <article className='w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 relative rounded-br-2xl dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4'>
@@ -77,44 +78,44 @@ const projects = () => {
                     <AnimatedText text="Innovation Through Code" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
-                            <FeaturedProject 
+                            <FeaturedProject
                                 type="Featured Project"
                                 title="Online Code Execution System"
                                 summary="Built an online code execution platform supporting C++, Java, Python, and JavaScript using Node.js, Express.js, and Docker. Persistent containers reduced execution overhead and improved performance by 70%. Deployed on AWS EC2 with PM2, ALB, and Auto Scaling. Includes input/output API and optimized response time by 25%."
-                                img="https://picsum.photos/600/400?random=1"
-                                link="/"
-                                github="/"
+                                img="/images/projects/CodeEditor.png"
+                                link="https://code-execution-system-frontend.vercel.app/"
+                                github="https://github.com/sharmayash08/code-execution-system"
                                 technologies={["Node.js", "Express.js", "Docker", "AWS EC2", "PM2", "Auto Scaling"]}
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
-                            <Project 
+                            <Project
                                 type="Full Stack Application"
                                 title="ChatWave: Real-Time Communication Platform"
                                 summary="A real-time chat app built with MERN stack and Docker. Supports 1,500+ concurrent users with 99.9% uptime. JWT-based auth secures 2,000+ users. Fast messaging with sub-100ms latency and CI/CD pipeline for seamless updates."
-                                img="https://picsum.photos/600/400?random=2"
+                                img="/images/projects/chatapp.png"
                                 link="/"
                                 github="/"
                                 technologies={["MERN", "Docker", "JWT", "Socket.io", "React Context"]}
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
-                            <Project 
+                            <Project
                                 type="E-commerce Platform"
                                 title="Everyday Elegance"
                                 summary="A microservices-based frontend for an e-commerce platform integrated with Strapi CMS and email notifications using Nodemailer. Built with Docker and deployed via Jenkins CI/CD."
-                                img="https://picsum.photos/600/400?random=3"
+                                img="/images/projects/everydayelegance.png"
                                 link="/"
                                 github="/"
                                 technologies={["React", "Strapi", "Node.js", "Nodemailer", "Docker", "Jenkins"]}
                             />
                         </div>
                         <div className='col-span-12'>
-                            <FeaturedProject 
+                            <FeaturedProject
                                 type="Featured Project"
                                 title="Instagram Clone: Scalable Social Media Platform"
                                 summary="A photo and video sharing platform designed to scale for 1M+ users. Implemented features like login, signup, post creation, and profile editing. Achieved sub-10ms MongoDB reads and sub-50ms Express.js API response times."
-                                img="https://picsum.photos/600/400?random=4"
+                                img="/images/projects/instaclone.png"
                                 link="/"
                                 github="/"
                                 technologies={["JavaScript", "MongoDB", "Express.js"]}

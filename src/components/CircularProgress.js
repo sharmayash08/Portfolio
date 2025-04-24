@@ -2,7 +2,7 @@ import React from 'react';
 
 const CircularProgress = ({ value, total, easy, medium, hard, className }) => {
   const radius = 55; // Slightly smaller radius
-  const strokeWidth = 4; // Thinner stroke
+  const strokeWidth = 6; // Thinner stroke
   const normalizedRadius = radius - strokeWidth * 2;
   const circumference = normalizedRadius * 2 * Math.PI;
 
