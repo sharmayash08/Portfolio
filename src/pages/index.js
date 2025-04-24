@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Yash Sharma - Front-End Developer | UI/UX Designer | React Developer</title>
+        <title>Yash Sharma - Software Engineer | Cloud Engineer | Backend Developer</title>
         <meta name="Yash Sharma" content="I am a versatile Software Engineer, and Backend Developer with extensive experience in creating user-centered and responsive web applications. Browse my portfolio to see my work and get in touch with me for your next project." />
       </Head>
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
