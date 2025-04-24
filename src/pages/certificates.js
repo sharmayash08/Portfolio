@@ -57,7 +57,7 @@ const certificates = () => {
   const certificatesData = [
     {
       title: "Elite + Silver Badge in Cloud Computing",
-      date: "2023",
+      date: "2024",
       organization: "IIT Kharagpur, NPTEL",
       image: "/images/certificates/nptel.jpg",
       description: "Achieved Elite + Silver Badge in Cloud Computing with a score of 82%, demonstrating strong understanding of cloud technologies and infrastructure.",
@@ -65,7 +65,7 @@ const certificates = () => {
     },
     {
       title: "Data Structures and Algorithms Training",
-      date: "2023",
+      date: "2024",
       organization: "HitbullsEye",
       image: "/images/certificates/hitbullsdsa.jpg",
       description: "Completed 6-week summer training on data structures and algorithms, covering advanced algorithmic concepts and problem-solving techniques.",
@@ -73,7 +73,7 @@ const certificates = () => {
     },
     {
       title: "All India NCAT (Naukri Campus)",
-      date: "2023",
+      date: "2024",
       organization: "Naukri.com",
       image: "/images/certificates/ncat.jpg",
       description: "Qualified in the national-level competence assessment test, demonstrating strong technical and analytical skills.",
