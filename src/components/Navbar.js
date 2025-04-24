@@ -78,7 +78,7 @@ const Navbar = () => {
             <CustomLinks href="/" title="Home" className='mr-4'  />
             <CustomLinks href="/about" title="About" className='mx-4' />
             <CustomLinks href="/projects" title="Projects" className='mx-4' />
-            <CustomLinks href="/articles" title="Articles" className='ml-4' />
+            <CustomLinks href="/certificates" title="Certificates" className='ml-4' />
         </nav>
         
         <nav className='flex items-center justify-center flex-wrap'>
@@ -105,7 +105,7 @@ className='min-w-[70vw] flex flex-col z-30 justify-between items-center fixed to
             <CustomMobileLinks href="/" title="Home" className='' toggle={handleClick}  />
             <CustomMobileLinks href="/about" title="About" className='' toggle={handleClick} />
             <CustomMobileLinks href="/projects" title="Projects" className='' toggle={handleClick} />
-            <CustomMobileLinks href="/articles" title="Articles" className='' toggle={handleClick} />
+            <CustomMobileLinks href="/certificates" title="Certificates" className='' toggle={handleClick} />
         </nav>
         
         <nav className='flex items-center justify-center flex-wrap mt-2'>

@@ -1,31 +1,29 @@
 /* eslint-disable @next/next/no-document-import-in-page */
-  import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 import '@/styles/globals.css'
-  import { body } from 'next/document'
+import { Montserrat } from 'next/font/google'
+import Head from 'next/head'
 
-  import { Montserrat } from 'next/font/google'
-  import Head from 'next/head'
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-mont',
+  display: 'swap',
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+})
 
-  const montserrat = Montserrat({
-    subsets: ['latin'],
-    variable: '--font-mont',
-  })
-
-  export default function App({ Component, pageProps }) {
-    const newLocal = <Component {...pageProps} />
-    return (
-        <>
-          <Head>
+export default function App({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${montserrat.variable} font-mont bg-light w-full min-h-screen dark:bg-dark`}>
+      <main className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}>
         <Navbar />
-        {newLocal}
+        <Component {...pageProps} />
         <Footer />
       </main>
-        </>
-      
-      )
-  }
+    </>
+  )
+}
