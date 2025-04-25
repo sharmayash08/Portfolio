@@ -27,7 +27,7 @@ export default function Home() {
             ' />
             <p className='my-4 text-base font-medium md:text-sm sm:text-sm'>
               As an Aspiring Software Engineer, I am dedicated to turning ideas into innovative web applications. 
-              Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              Explore my latest projects and certificates, showcasing my expertise in Full Stack Development and Backend Development.
             </p>
             <div className='flex items-center self-start mt-2 lg:self-center'>
               <Link 
